@@ -32,8 +32,6 @@ class _Vertex:
 
     def similarity_score(self, other: _Vertex) -> float:
         """Return the similarity score between this vertex and other.
-
-        See Assignment handout for definition of similarity score.
         """
 
         if self.degree() == 0 or other.degree() == 0:
